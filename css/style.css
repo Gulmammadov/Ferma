@@ -1,0 +1,391 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: Arch;
+	src:url(..//fontlar/Arch.otf) format('opentype');
+}
+@font-face{
+	font-family: Larisa;
+	src:url(..//fontlar/Larisa.otf) format('opentype');
+}
+.head1{
+	padding-left: 3%;
+	padding-right: 3%;
+	height: 120px;
+	background-color: #006757;
+}
+.head1 img{
+	width: 130px;
+	float: left;
+	margin-top: -10px;
+}
+.head1 img:hover{
+	cursor: pointer;
+}
+.contact{
+	float: left;
+	margin-left: 90px;
+}
+.contact:hover{
+	cursor: pointer;
+}
+.icon{
+	float: left;
+}
+.text{
+	float: left;
+}
+.contact i{
+	font-size: 35px;
+	color: white;
+	margin-right: 20px;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+.contact p{
+	color: white;
+	font-weight: bold;
+	padding-top: 35px;
+}
+.contact span{
+	color: white;
+	padding-top: 0px;
+}
+.icons{
+	margin-left: 1060px;
+	padding-top: 60px;
+}
+.icons i{
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+.icons i:hover{
+	cursor: pointer;
+	color: lightgray;
+}
+.login{
+	width: 225px;
+	margin-top: -43px;
+	margin-left: 11px;
+}
+.login span,i{
+	font-size: 16px;
+	display: inline-block;
+	color: white;
+}
+.login span:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.head2{
+	padding-left: 3%;
+	padding-right: 3%;
+	background: #e1d8c7 url(http://ripeme.com/wp-content/themes/ripeme/images/bg.jpg) repeat top center;
+	height: 120px;
+	margin-top: -10px;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	font-size: 33px;
+	font-family: Arch;
+	margin-top: 35px;
+	margin-left: 23px;
+	color: #8D6742;
+}
+.menu ul li:hover{
+	cursor: pointer;
+	color: #006757;
+
+}
+.slider img{
+	width: 100%;
+}
+.content{
+	height: 4500px;
+    background: #e1d8c7 url(http://ripeme.com/wp-content/themes/ripeme/images/bg.jpg) repeat top center;
+    color: #006758;
+    overflow-x: hidden;
+}
+.xett{
+	width: 80%;
+	height: 1px;
+	background-color: #006758;
+	margin: auto;
+	margin-top: 30px;
+}
+.mehsullar{
+	margin-top: 100px;
+}
+.basliq p{
+	text-align: center;
+	font-size: 80px;
+	margin-top: 25px;
+	font-family: Larisa;
+}
+.mehsullar p{
+	text-align: center;
+	font-size: 80px;
+	margin-top: 25px;
+	font-family: Larisa;
+}
+.mehsul{
+	width: 23%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 100px;
+}
+.mehsul:hover{
+	cursor: pointer;
+}
+.mehsul img{
+	width: 100%;
+	height: 320px;
+}
+.mehsul a{
+	text-decoration: none;
+}
+.mehsul p{
+	font-size: 50px;
+}
+.bezek img{
+	width: 45%;
+	margin-top: 100px;
+	margin-left: 370px;
+	margin-bottom: 100px;
+}
+.basliq img{
+	width: 45%;
+	margin-left: 9%;
+    margin-top: 100px;
+    float: left;
+}
+.kyazi{
+	width: 30%;
+	float: left;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+.kyazi p{
+	font-size: 55px;
+}
+.bezek2 img{
+	width: 75%;
+    margin-left: 178px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.rsection{
+	width: 20%;
+	float: left;
+	margin-left: 13%;
+	margin-top: 150px;
+}
+.rsection i{
+	font-size: 100px;
+	color: #006757;
+}
+.rsection p{
+	font-size: 40px;
+	text-align: center;
+	margin-left: -140px;
+}
+.footer{
+	height: 300px;
+	background-color: #006757;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.left{
+	width: 25%;
+	float: left;
+}
+.left img{
+	width: 100px;
+}
+.left p{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+.left span{
+	color: white;
+}
+.center{
+	width: 25%;
+	float: left;
+	margin-top: 99px;
+	margin-left: 15%;
+}
+.center p{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.center h5{
+	color: white;
+}
+.center h5:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.right{
+	width: 10%;
+	float: left;
+	margin-top: 99px;
+	margin-left: 5%;
+}
+.right p{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.right h5{
+	color: white;
+}
+.right h5:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*Sehifeler*/
+.contentler{
+	background: #e1d8c7 url(http://ripeme.com/wp-content/themes/ripeme/images/bg.jpg) repeat top center;
+	height: 1000px;
+}
+.button{
+	width: 330px;
+	height: 50px;
+	background-color: #8D6742;
+	border-radius: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.button h3{
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-top: 12px;
+}
+.button span{
+	color: white;
+	font-size: 20px;
+	float: left;
+}
+.istek{
+	float: left;
+	margin-top: 12px;
+    margin-left: 10px;
+}
+.istek i{
+	margin-top: 8px;
+    margin-left: 5px;
+    color: red;
+}
+.sebet{
+	float: left;
+	margin-top: 12px;
+    margin-left: 10px;
+}
+.sebet i{
+	margin-top: 8px;
+    margin-left: 5px;
+    color: #FEBE02;
+}
+/*LOGIN REGISTER*/
+.loginregister{
+	width: 100%;
+	height: 637px;
+	background: #e1d8c7 url(http://ripeme.com/wp-content/themes/ripeme/images/bg.jpg) repeat top center;
+
+}
+
+.register{
+	margin-left: 23%;
+    padding-top: 12%;
+}
+.signup p{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+
+}
+.signup{
+	float: left;
+	background-color: rgba(0,0,0,0.4);
+	width: 300px;
+	padding: 15px;
+}
+.signin{
+	float: left;
+	margin-left: 120px;
+	background-color: rgba(0,0,0,0.4);
+	width: 300px;
+	padding: 15px;
+	color: white;
+}
+.signin p{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+
+}
+.signup input{
+	margin: 3%;
+    width: 251px;
+    height: 25px;
+}
+.signin input{
+	margin: 3%;
+    width: 251px;
+    height: 25px;
+}
+.register .signup .button{
+	background-color: #006757;
+	border: none;
+	color: white;
+
+}
+input[type="checkbox"]{
+	width: 20px;
+}
+.register .signin .button{
+	background-color: #006757;
+	border: none;
+	color: white;
+}
+.register .signin .or {
+	font-size: 15px;
+	color: white;
+}
+#sifre{
+	margin-left: 8px;
+}
+#sifre:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.logicon i{
+	text-align: center;
+	border-radius: 100%;
+	background-color: #006757;
+    width: 25px;
+    height: 25px;
+    margin-left: 3%;
+    padding-top: 5px;
+} 
+.logicon{
+	margin-left: 21%;
+    margin-top: 14%;
+}
+.logicon i:hover{
+	color: #006757;
+	background-color: white;
+	cursor: pointer;
+
+}
